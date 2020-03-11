@@ -1,20 +1,53 @@
 header {
-  background-color: red;
+  background-color: darkred;
   color : white;
+  font-family: sans-serif;
+  padding: 2%;
 }
 
 nav {
   background-color: 323232;
   float: right;
   width: 100%;
+  font-family: sans-serif;
+  padding: 2%;
+}
+
+main {
+  background-color: FFFFFF;
+  float: left;
+  margin-top: 2.5%;
+  margin-left: 2.5%;
+  margin-bottom: 2.5%;
+  width: 70%;
+  font-family: sans-serif;
+}
+
+aside {
+  background-color: FFFFFF;
+  float: right;
+  margin-top: 2.5%;
+  margin-right: 2.5%;
+  margin-bottom: 2.5%;
+  width: 20%;
+  font-family: sans-serif;
+  font-weight: bold;
 }
 
 footer {
+  postion: absolute;
+  top: -975px;
   background-color: 323232;
-  color: white;
+  color: black;
+  width: 1415px;
+  padding: 15px;
   font-size: 8;
   font-family: sans-serif;
-  padding: 10px;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .nav_li {
@@ -22,7 +55,7 @@ footer {
   float: left;
   background-color: 323232;
   color: white;
-  width: 100px;
+  padding-left: 12px;
   text-decoration: underline;
   text-align: right;
 }
